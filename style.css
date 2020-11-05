@@ -202,7 +202,7 @@
       height: 40px;
       background-color: rgb(89, 218, 223);
       border-radius: 5px;
-      /* text-align: center; */
+      text-align: center;
       /* padding: 10px; */
       cursor: pointer;
   }
