@@ -211,6 +211,7 @@
       font-weight: bolder;
       padding: 10px;
       cursor: pointer;
+      text-align: center;
   }
   #source{
       text-align: center;
