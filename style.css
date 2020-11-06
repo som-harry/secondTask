@@ -208,7 +208,7 @@
   }
   .frontend{
       flex-basis: 300px;
-      height: 280px;
+      /* height: 280px; */
       background-color: white;
       margin: 5px 15px 5px 15px;
       border-radius: 5px;
@@ -218,7 +218,7 @@
   }
   .master{
       flex-basis: 150px;
-      height: 220px;
+      /* height: 220px; */
       background-color: black;
       border-top: 10px solid rgba(231, 59, 16, 0.616);
       border-top-left-radius: 5px;
@@ -237,14 +237,15 @@
   }
   .browse{
     font-size: 15px ;
-    /* width: 250px; */
+    flex-basis: 350px;
+    padding: 10px;
     color: white;
     border-radius: 40px;
-    margin-top: 20px;
-    height: 55px;
+    margin-top: 10px;
+    margin-bottom: 5px;
     letter-spacing: 3px;
     border: 1px solid rgba(231, 59, 16, 0.616);
-    background-color:rgba(231, 59, 16, 0.616);
+    background-color:rgba(231, 66, 16, 0.616);
     font-weight: bolder;
     cursor: pointer;
   }
@@ -314,9 +315,9 @@
       height: 30px;
       border-radius: 20px;
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-start;
       align-items: center;
-      justify-content: space-between;
+      background-color: gold;
      
       /* justify-content: space-between; */
   }
@@ -325,7 +326,6 @@
   }
   .gridone, .gridtwo, .gridthree, .gridfour, .gridfive, .gridsix{
       background-color: white;
-      padding: -10px 0px 0px 10px;
       cursor: pointer;
       margin: 10px;
     }
@@ -333,8 +333,8 @@
 #gridcolors{
     /* margin: 0; */
     padding: 0;
-    margin-left: 4px;
-    margin-top: -5px;
+    margin-left: 0px;
+    margin-top: 5px;
 }
 .gridcolors{
     background-color: #8372CB;
