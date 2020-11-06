@@ -333,8 +333,8 @@
 #gridcolors{
     /* margin: 0; */
     padding: 0;
-    margin-left: 0px;
-    margin-top: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
 }
 .gridcolors{
     background-color: #8372CB;
@@ -436,6 +436,7 @@ footer ul.terms{
 .subMain{
     height: 290px;
 }
+
   
  }
   @media(min-width:767px) and (max-width:991px){
@@ -456,7 +457,7 @@ footer ul.terms{
   }
   @media (min-width:992px) and (max-width:1199px){
     body{
-        /* background-color: lightgreen; */
+        background-color: lightgreen;
     }
     footer div{
         padding: 10px;
