@@ -130,26 +130,37 @@
   .contains{
       width: 100%;
       height: 80px;
-      background-color: #ccc8c8;
+      background-color: #e2e0e0;
       display: flex;
+      font-weight: bolder;
+      color: black;
       /* flex: 1 1 0; */
   }
+ 
   #project{
       padding: 20px 20px  0px 20px;
       text-align: center;
+      /* font-weight: bolder; */
+      color: black;
 
   }
 #projects{
     padding: 0px 20px  0px 20px;
     text-align: center;
+    font-weight: bolder;
+    color: black;
 }
 #prototype{
     padding: 20px 20px  0px 20px;
       text-align: center; 
+      /* font-weight: bolder; */
+      color: black;
 }
 #prototypes{
     padding: 0px 20px  0px 20px;
-      text-align: center; 
+      text-align: center;
+      font-weight: bolder;
+      color: black;
 }
   .left-header{
       height: 180px;
