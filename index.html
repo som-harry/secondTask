@@ -4,15 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale-1.0, user-scalable=0">
     <link rel="stylesheet" href="fontawesome-free-5.15.1-web/fontawesome-free-5.15.1-web/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+    <nav class="navbar navbar-default navbar-fixed-top col-xs-12 col-sm-12 col-md-12" >
+        <div class="navbar-header">
+            <img id="logo" src="images/uidesigndaily-logo.svg" alt="">
+            <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#dropdown">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="dropdown">
+            <ul class="nav navbar-nav navbar-right">
+                <li> <a href="">Designs</a> </li>
+                <li> <a href="">About</a> </li>
+                <li> <a href="">License</a> </li>
+                <li> <a href="">Blog</a> </li>
+                <li> <a href="">Contact</a> </li>
+                
+            </ul>
+        </div>
+   </nav>
     <div class="wrapper">
 
-        <nav>
+        <!-- <nav >
             <ul class="logo">
                <img src="./images/uidesigndaily-logo.svg" alt="logo" > 
+               
             </ul>
             <ul class="index">
                 <li><a href="">Designs</a></li>
@@ -21,50 +43,99 @@
                 <li><a href="">Blog</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
-        </nav>
+        </nav> -->
+        
 
        <section >
             <div class="left">
                 <!-- <img src="./images/lelia.png" alt="lelia" class="images" > -->
-                <div class="frame frameone">
-                    <img src="./images/WhatsApp Image 2020-11-03 at 12.15.36 PM.jpeg" alt="car" class="image one" >
-                    <div class="button tech">
-                        <small >TECHNOLOGY</small>
-                    </div>
-                    <h3>Why is the Tesla Cybertruck <br> designed the way it is?</h3>
-                    <p>An exploration into the truck's <br> polarising design.</p>
-                    <aside>
-                        <img src="./images/load.PNG" alt="footer-img" class="asides foot1">
-                        <h4 class="feet tee"  >Carrie Brewier <br> <p class="hour ago"  >2h ago</p></h4>
-                        
-                    </aside>
+                <div class="left-header">
                 </div>
-                <div class="frame frametwo">
-                    <img src="./images/ballon.PNG" alt="ballon" class="image two">
-                    <div class="button pop">
-                        <small >POPULAR</small>
+                <div class="userMain "> 
+                    <div class="subMain main1">
+                        <img src="./images/user1.jfif" alt="person" class="img img1">
+                        <h4>Jay Reese</h4>
+                        <div class="contains">
+                            <div class="leftside">
+                                <p id="project" >2</p>
+                                <p id="projects">Projects</p>
+                            </div>
+                            <div class="rightside">
+                                <p id="prototype">6</p>
+                                <p id="prototypes">Prototypes</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3>How to keep Going when you   <br> Don't Know What's Next</h3>
-                    <p>The future can be scary, but there <br>are way to deal with that fear.</p>
-                    <aside class="foots2">
-                        <img src="./images/load.PNG" alt="footer-img" class="asides foot2">
-                        <h4 class="feet tee"  >Jerome Walton <br> <p class="hour ago"  >Yesterday</p></h4>
-                        
-                    </aside>
-                </div>
-    
-                <div class="frame framethree">
-                    <img src="./images/load.PNG" alt="load" class="image three">
-                    <div class="button desig">
-                        <small >DESIGN</small>
+                    <div class="subMain main2">
+                        <img src="./images/user2.jfif" alt="person" class="img img1">
+                        <h4>Carlos Ramos</h4>
+                        <div class="contains">
+                            <div class="leftside">
+                                <p id="project" >3</p>
+                                <p id="projects">Projects</p>
+                            </div>
+                            <div class="rightside">
+                                <p id="prototype">4</p>
+                                <p id="prototypes">Prototypes</p>
+                            </div>
+                        </div>
                     </div>
-                    <h3>10 Rules of Dashboard design  </h3>
-                    <p>Dashboard Design Guidelines</p>
-                    <aside class="foots3">
-                        <img src="./images/load.PNG" alt="footer-img" class="asides foot3">
-                        <h4 class="feet tee"  >Lewis Daniels <br> <p class="hour ago"  >23 Dec 2019</p></h4>
-                        
-                    </aside>
+                    <div class="subMain main3"> 
+                        <img src="./images/user3.jfif" alt="person" class="img img1">
+                        <h4>Eugenia Grant</h4>
+                        <div class="contains">
+                            <div class="leftside">
+                                <p id="project" >7</p>
+                                <p id="projects">Projects</p>
+                            </div>
+                            <div class="rightside">
+                                <p id="prototype">13</p>
+                                <p id="prototypes">Prototypes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subMain main4">
+                        <img src="./images/users4.jfif" alt="person" class="img img1">
+                        <h4>Lelia Marshall</h4>
+                        <div class="contains">
+                            <div class="leftside">
+                                <p id="project" >6</p>
+                                <p id="projects">Projects</p>
+                            </div>
+                            <div class="rightside">
+                                <p id="prototype">24</p>
+                                <p id="prototypes">Prototypes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subMain main5"> 
+                        <img src="./images/user5.jfif" alt="person" class="img img1">
+                        <h4>Olivia Campbell</h4>
+                        <div class="contains">
+                            <div class="leftside">
+                                <p id="project" >2</p>
+                                <p id="projects">Projects</p>
+                            </div>
+                            <div class="rightside">
+                                <p id="prototype">16</p>
+                                <p id="prototypes">Prototypes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="subMain main6">
+                        <img src="./images/user6.jfif" alt="person" class="img img1">
+                        <h4>Bernice Alvarado</h4>
+                        <div class="contains">
+                            <div class="leftside">
+                                <p id="project" >2</p>
+                                <p id="projects">Projects</p>
+                            </div>
+                            <div class="rightside">
+                                <p id="prototype">5</p>
+                                <p id="prototypes">Prototypes</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
     
             </div>
@@ -144,13 +215,22 @@
         <div class="divsocial">
             <ul class="social">
                 <li><a href="" class="fab fa-twitter" ></a></li>
-                <li><a href="" class="fab fa-twitter" ></a></li>
-                <li><a href="" class="fab fa-twitter" ></a></li>
+                <li><a href="" class="fab fa-behance" ></a></li>
+                <li><a href="" class="fab fa-dribbble" ></a></li>
                 <li><a href="" class="fab fa-instagram" ></a></li>
                 <li><a href="" class="fab fa-facebook" ></a></li>
             </ul>
         </div>
        </footer>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+    <script>
+        $(".nav li").on("click", function(){
+         $(".nav li").removeClass("active");
+         $(this).addClass("active");
+  });
+    </script>
 </body>
 </html>
